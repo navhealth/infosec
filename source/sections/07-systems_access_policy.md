@@ -44,7 +44,7 @@ Access to CareJourney systems and applications is limited for all users, includi
      * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#7.12-password-management), which must be changed on the initial login.
      * All password exchanges must occur over an authenticated channel.
      * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
-     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a CareJourney employee at the discretion of the Security Officer or Privacy Officer .
+     * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems shall be delegated to a CareJourney employee at the discretion of the Security Officer or Privacy Officer .
 2. Access is not granted until receipt, review, and approval by the CareJourney Security Officer or Privacy Officer.
 3. The request for access is retained for future reference.
 4. All access to CareJourney systems and services is reviewed and updated on a bi-annual basis to ensure proper authorizations are in place commensurate with job functions. The process for conducting reviews is outlined below:
@@ -111,12 +111,12 @@ Access to CareJourney systems and applications is limited for all users, includi
 
 All workstations at CareJourney are company owned, and all are laptop Apple products running Mac OSX or Linux.
 
-1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
-2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through the organization's system.
-3. Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
+1. Workstations must not be used to engage in any activity that is illegal or is in violation of organization's policies.
+2. Access must not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through the organization's system.
+3. Information systems/applications also shall not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
-5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
-6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
+5. Transmitted messages must not contain material that criticizes the organization, its providers, its employees, or others.
+6. Users shall not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
 7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
 8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by CareJourney Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.CareJourney.com) and have completed this training (https://training.CareJourney.com/). Please contact us if you have problems with this - privacy@CareJourney.com.*
@@ -135,8 +135,8 @@ All workstations at CareJourney are company owned, and all are laptop Apple prod
 1. The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
 2. The Human Resources Department, users, and supervisors are required to notify the Security Officer to terminate a user's access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
    * The user has been using their access rights inappropriately;
-   * A user's password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
-   * An unauthorized individual is utilizing a user's User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
+   * A user's password has been compromised (a new password must be provided to the user if the user is not identified as the individual compromising the original password);
+   * An unauthorized individual is utilizing a user's User Login ID and password (a new password must be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
 3. The Security Officer will terminate users' access rights immediately upon notification, and will coordinate with the appropriate CareJourney employees to terminate access to any non-production systems managed by those employees.
 4. The Security Officer audits and may terminate access of users that have not logged into organization's information systems/applications for an extended period of time.
 
@@ -146,7 +146,7 @@ CareJourney does not use paper records for any sensitive information. Use of pap
 
 ## 7.12 Password Management
 
-1. User IDs and passwords are used to control access to CareJourney systems and may not be disclosed to anyone for any reason.
+1. User IDs and passwords are used to control access to CareJourney systems and shall not be disclosed to anyone for any reason.
 2. Users may not allow anyone, for any reason, to have access to any information system using another user's unique user ID and password.
 3. On all production systems and applications in the CareJourney environment, password configurations are set to require:
    * a minimum length of 8 characters;
@@ -156,7 +156,7 @@ CareJourney does not use paper records for any sensitive information. Use of pap
    * where supported, modifying at least 4 characters when changing passwords;
    * account lockout after 5 invalid attempts.
 4. All system and application passwords must be stored and transmitted securely.
-   * Where possible, passwords should be stored in a hashed format using a salted cryptographic hash function (SHA-256 or equivalent).
+   * Where possible, passwords must be stored in a hashed format using a salted cryptographic hash function (SHA-256 or equivalent).
    * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in [§17.8](#17.8-production-data-security).
    * Transmitted passwords must be encrypted in flight pursuant to the requirements in [§17.9](#17.9-transmission-security).
 5. Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
@@ -167,7 +167,7 @@ CareJourney does not use paper records for any sensitive information. Use of pap
 10. All passwords used in configuration scripts are secured and encrypted.
 11. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 12. In cases where a user has forgotten their password, the following procedure is used to reset the password.
-    * The user submits a password reset request to password-reset@CareJourney.com. The request should include the system to which the user has lost access and needs the password reset.
+    * The user submits a password reset request to password-reset@CareJourney.com. The request must include the system to which the user has lost access and needs the password reset.
     * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
     * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
     * Once verified, the administrator resets the password.
@@ -176,7 +176,7 @@ The password-reset email inbox is used to track and store password reset request
 
 ## 7.13 Access to ePHI
 
-1. Employees may not download ePHI to any workstations used to connect to production systems.
+1. Employees shall not download ePHI to any workstations used to connect to production systems.
 2. Disallowing transfer of ePHI to workstations is enforced through technical measures.
    * All production access to systems is performed through a bastion/jump host accessed through a VPN. Direct access to production systems is disallowed by CareJourney's VPN configuration.
    * On production Linux bastions, all file transfer services are disabled including file-transfer functionality of SSH services (SCP/SFTP).

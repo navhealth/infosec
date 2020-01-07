@@ -108,7 +108,7 @@ The notification sequence is listed below:
 
 This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities.
 
-The following procedures are for recovering the CareJourney infrastructure at the alternate site. Procedures are outlined per team required. Each procedure should be executed in the sequence it is presented to maintain efficient operations.
+The following procedures are for recovering the CareJourney infrastructure at the alternate site. Procedures are outlined per team required. Each procedure shall be executed in the sequence it is presented to maintain efficient operations.
 
 Recovery Goal: The goal is to rebuild CareJourney infrastructure to a production state.
 
