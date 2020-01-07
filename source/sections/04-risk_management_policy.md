@@ -93,7 +93,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Output - Actions ranked from high to low
 
 * Step 2. Evaluate Recommended Control Options
-  * Although possible controls for each threat and vulnerability pair are arrived at in Step 8 of the Risk Assessment, review the recommended control(s) and alternative solutions for reasonableness and appropriateness. The feasibility (e.g., compatibility, user acceptance, etc.) and effectiveness (e.g., degree of protection and level of risk mitigation) of the recommended controls should be analyzed. In the end, select a "most appropriate" control option for each threat and vulnerability pair.
+  * Although possible controls for each threat and vulnerability pair are arrived at in Step 8 of the Risk Assessment, review the recommended control(s) and alternative solutions for reasonableness and appropriateness. The feasibility (e.g., compatibility, user acceptance, etc.) and effectiveness (e.g., degree of protection and level of risk mitigation) of the recommended controls must be analyzed. In the end, select a "most appropriate" control option for each threat and vulnerability pair.
   * Output - list of feasible controls
 
 * Step 3. Conduct Cost-Benefit Analysis
@@ -109,7 +109,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Output - List of resources, responsible persons and their assignments
 
 * Step 6. Develop Safeguard Implementation Plan
-  * Develop an overall implementation or action plan and individual project plans needed to implement the safeguards and controls identified. The Implementation Plan should contain the following information:
+  * Develop an overall implementation or action plan and individual project plans needed to implement the safeguards and controls identified. The Implementation Plan must contain the following information:
     * Each risk or vulnerability/threat pair and risk level;
     * Prioritized actions;
     * The recommended feasible control(s) for each identified risk;
@@ -118,7 +118,7 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
     * Start date for implementation;
     * Target date for completion of implementation;
     * Maintenance requirements.
-  * The overall implementation plan provides a broad overview of the safeguard implementation, identifying important milestones and timeframes, resource requirements (staff and other individuals' time, budget, etc.), interrelationships between projects, and any other relevant information. Regular status reporting of the plan, along with key metrics and success indicators should be reported to CareJourney Senior Management.
+  * The overall implementation plan provides a broad overview of the safeguard implementation, identifying important milestones and timeframes, resource requirements (staff and other individuals' time, budget, etc.), interrelationships between projects, and any other relevant information. Regular status reporting of the plan, along with key metrics and success indicators must be reported to CareJourney Senior Management.
   * Individual project plans for safeguard implementation may be developed and contain detailed steps that assigned resources carry out to meet implementation timeframes and expectations. Additionally, consider including items in individual project plans such as a project scope, a list deliverables, key assumptions, objectives, task completion dates and project requirements.
   * Output - Safeguard Implementation Plan
 
@@ -133,8 +133,8 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
 
 The two principle components of the risk management process - risk assessment and risk mitigation - will be carried out according to the following schedule to ensure the continued adequacy and continuous improvement of CareJourney's information security program:
 
-* Scheduled Basis - an overall risk assessment of CareJourney's information system infrastructure will be conducted annually. The assessment process should be completed in a timely fashion so that risk mitigation strategies can be determined and included in the corporate budgeting process.
-* Throughout a System's Development Life Cycle - from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities should be undertaken as a part of the maintenance of the system.
+* Scheduled Basis - an overall risk assessment of CareJourney's information system infrastructure will be conducted annually. The assessment process must be completed in a timely fashion so that risk mitigation strategies can be determined and included in the corporate budgeting process.
+* Throughout a System's Development Life Cycle - from the time that a need for a new, untested information system configuration and/or application is identified through the time it is disposed of, ongoing assessments of the potential threats to a system and its vulnerabilities must be undertaken as a part of the maintenance of the system.
 * As Needed - the Security Officer (or other designated employee) or Risk Management Team may call for a full or partial risk assessment in response to changes in business strategies, information technology, information sensitivity, threats, legal liabilities, or other significant factors that affect CareJourney's Platform.
 
 ## 4.4 Process Documentation

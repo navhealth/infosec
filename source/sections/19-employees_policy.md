@@ -33,7 +33,7 @@ CareJourney is committed to ensuring all workforce members actively address secu
    * Current CareJourney training is hosted at [training.CareJourney.com](https://training.CareJourney.com/).
 7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 8. All CareJourney-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by CareJourney Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.CareJourney.com) and have completed this training (https://training.CareJourney.com). Please contact us if you have problems with this - privacy@CareJourney.com*.
-9. Employees may only use CareJourney-purchased and -owned workstations for accessing production systems with access to ePHI data.
+9. Employees shall only use CareJourney-purchased and -owned workstations for accessing production systems with access to ePHI data.
    * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
    * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
    * CareJourney may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).

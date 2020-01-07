@@ -42,14 +42,14 @@ The current CareJourney Privacy Officer is "fill in"  ([Fillin@CareJourney.com](
    4. Risk Management procedures and documentation;
    5. Auditing - CareJourney may monitor access and activities of all users;
    6. Workstations may only be used to perform assigned job responsibilities;
-   7. Users may not download software onto CareJourney's workstations and/or systems without prior approval from the Security Officer;
+   7. Users shall not download software onto CareJourney's workstations and/or systems without prior approval from the Security Officer;
    8. Users are required to report malicious software to the Security Officer immediately;
    9. Users are required to report unauthorized attempts, uses of, and theft of CareJourney's systems and/or workstations;
    10. Users are required to report unauthorized access to facilities
    11. Users are required to report noted log-in discrepancies (i.e. application states user's last log-in was on a date user was on vacation);
-   12. Users may not alter ePHI maintained in a database, unless authorized to do so by a CareJourney Customer;
+   12. Users must not alter ePHI maintained in a database, unless authorized to do so by a CareJourney Customer;
    13. Users are required to understand their role in CareJourney's contingency plan;
-   14. Users may not share their user names nor passwords with anyone;
+   14. Users must not share their user names nor passwords with anyone;
    15. Requirements for users to create and change passwords;
    16. Users must set all applications that contain or transmit ePHI to automatically log off after 15 minutes of inactivity;
    17. Supervisors are required to report terminations of workforce members and other outside users;

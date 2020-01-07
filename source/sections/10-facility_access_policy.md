@@ -39,6 +39,6 @@ Of note, CareJourney does not have ready access to ePHI, it provides cloud-based
    * Workforce members in violation of this policy are subject to disciplinary action, up to and including termination.
    * Visitors in violation of this policy are subject to loss of vendor privileges and/or termination of services from CareJourney.
 9. Workstation Security
-   * Workstations may only be accessed and utilized by authorized workforce members to complete assigned job/contract responsibilities.
+   * Workstations shall only be accessed and utilized by authorized workforce members to complete assigned job/contract responsibilities.
    * All workforce members are required to monitor workstations and report unauthorized users and/or unauthorized attempts to access systems/applications as per the System Access Policy.
    * All workstations purchased by CareJourney are the property of CareJourney and are distributed to users by the company.

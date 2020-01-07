@@ -42,7 +42,7 @@ In the case of a breach, CareJourney shall notify all affected Customers. It is 
    * A brief description of what CareJourney is doing to investigate the breach, to mitigate harm to individuals and Customers, and to protect against further breaches;
    * Contact procedures for individuals to ask questions or learn additional information, which may include a toll-free telephone number, an e-mail address, a web site, or postal address.
 7. Methods of Notification: CareJourney Customers will be notified via email and phone within the timeframe for reporting breaches, as outlined above.
-8. Maintenance of Breach Information/Log: As described above and in addition to the reports created for each incident, CareJourney shall maintain a process to record or log all breaches of unsecured ePHI regardless of the number of records and Customers affected. The following information should be collected/logged for each breach (see sample Breach Notification Log):
+8. Maintenance of Breach Information/Log: As described above and in addition to the reports created for each incident, CareJourney shall maintain a process to record or log all breaches of unsecured ePHI regardless of the number of records and Customers affected. The following information shall be collected/logged for each breach (see sample Breach Notification Log):
    * A description of what happened, including the date of the breach, the date of the discovery of the breach, and the number of records and Customers affected, if known.
    * A description of the types of unsecured protected health information that were involved in the breach (such as full name, Social Security number, date of birth, home address, account number, etc.), if known.
    * A description of the action taken with regard to notification of patients regarding the breach.
@@ -50,7 +50,7 @@ In the case of a breach, CareJourney shall notify all affected Customers. It is 
 10. Workforce Training: CareJourney shall train all members of its workforce on the policies and procedures with respect to ePHI as necessary and appropriate for the members to carry out their job responsibilities. Workforce members shall also be trained as to how to identify and report breaches within the organization.
 11. Complaints: CareJourney must provide a process for individuals to make complaints concerning the organization's patient privacy policies and procedures or its compliance with such policies and procedures.
 12. Sanctions: The organization shall have in place and apply appropriate sanctions against members of its workforce, Customers, and Partners who fail to comply with privacy policies and procedures.
-13. Retaliation/Waiver: CareJourney may not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right. The organization may not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
+13. Retaliation/Waiver: CareJourney must not intimidate, threaten, coerce, discriminate against, or take other retaliatory action against any individual for the exercise by the individual of any privacy right. The organization must not require individuals to waive their privacy rights under as a condition of the provision of treatment, payment, enrollment in a health plan, or eligibility for benefits.
 
 ## 12.3 CareJourney Platform Customer Responsibilities
 
