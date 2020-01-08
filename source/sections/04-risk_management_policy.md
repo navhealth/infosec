@@ -22,8 +22,8 @@ This policy establishes the scope, objectives, and procedures of CareJourney's i
 2. Risk analysis and risk management are recognized as important components of CareJourney's corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
    1. Risk assessments are done throughout product life cycles;
    2. Before the integration of new system technologies and before changes are made to CareJourney physical safeguards; and
-      * These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the CareJourney Platform.
-   3. While making changes to CareJourney physical equipment and facilities that introduce new, untested configurations.
+      * These changes do not include updates to existing products systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the CareJourney Platform. Such changes will be handled under the Configuration Management Policy.
+   3. While making changes to CareJourney product architecture that introduce new service providers (e.g., a new cloud provider).
    4. CareJourney performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
 3. CareJourney implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
    1. Ensure the confidentiality, integrity, and availability of all ePHI CareJourney receives, maintains, processes, and/or transmits for its Customers;
@@ -35,11 +35,10 @@ This policy establishes the scope, objectives, and procedures of CareJourney's i
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of CareJourney's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
-  1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an Issue in the CareJourney Quality Management System.
-  2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
-  3. All findings are documented in an approved spreadsheet that is linked to the Issue.
-  4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
+  1. The Security Officer or the Privacy Officer initiates a Risk Management Review by scheduling a meeting with all relevant stakeholders and creating a Meeting Minutes template in the Confluence Information Security space.
+  2. The Security Officer designates a deputy to carry out the Risk Management Procedures.
+  3. All findings are documented with individual issues in the Issue Management System.
+  4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer completes meeting minutes and distributes a summary of all changes and action items.
 9. The Risk Management Procedure is monitored on a quarterly basis using the Quality Management System reporting to assess compliance with above policy.
 
 ## 4.3 Risk Management Procedures
@@ -49,28 +48,31 @@ This policy establishes the scope, objectives, and procedures of CareJourney's i
 The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
 * Step 1. System Characterization
-  * The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, the CareJourney Platform boundaries are identified.
+  * The first step in assessing risk is to define the scope of the effort. To do this, identify where ePHI is received, maintained, processed, or transmitted. Using information-gathering techniques, the CareJourney Platform boundaries are identified. The assessment should also consider where CareJourney proprietary information is stored,
+  such as internal deliberations and meeting minutes, source code, any any other information that may damage CareJourney if its confidentiality, integrity or availability were
+  challenged.
   * Output - Characterization of the CareJourney Platform system assessed, a good picture of the Platform environment, and delineation of Platform boundaries.
 
 * Step 2. Threat Identification
-  * Potential threats (the potential for threat-sources to successfully exercise a particular vulnerability) are identified and documented. All potential threat-sources from historical incidents and data from intelligence agencies, the government, etc., are reviewed to help generate a list of potential threats.
-  * Output - A threat list containing a list of threat-sources that could exploit Platform vulnerabilities.
+  * Potential threats to the confidentiality, integrity or availability of relevant data are identified and documented. Threat sources include generally available threat
+  source lists, sources from historical incidents, data from government resources, etc. Consider active threat sources (e.g., cyberattack) and passive threat sources (e.g., natural disaster)
+  * Output - A threat list containing a list of threat-sources that could exploit vulnerabilities. 
 
 * Step 3. Vulnerability Identification
-  * Develop a list of technical and non-technical Platform vulnerabilities that could be exploited or triggered by potential threat-sources. Vulnerabilities can range from incomplete or conflicting policies that govern an organization's computer usage to insufficient safeguards to protect facilities that house computer equipment to any number of software, hardware, or other deficiencies that comprise an organization's computer network.
-  * Output - A list of the Platform vulnerabilities (observations) that could be exercised by potential threat-sources.
+  * Consider how each threat could be exploited in real-world scenarios. Identify technical and non-technical factors that could be exploited by each threat source.
+  * Output - A list of the vulnerabilities that could be exercised by potential threat-sources.
 
-* Step 4. Control Analysis
-  * Document and assess the effectiveness of technical and non-technical controls that have been or will be implemented by CareJourney to minimize or eliminate the likelihood / probability of a threat-source exploiting a Platform vulnerability.
-  * Output - List of current or planned controls (policies, procedures, training, technical mechanisms, insurance, etc.) used for the Platform to mitigate the likelihood of a vulnerability being exercised and reduce the impact of such an adverse event.
-
-* Step 5. Likelihood Determination
+* Step 4. Likelihood Determination
   * Determine the overall likelihood rating that indicates the probability that a vulnerability could be exploited by a threat-source given the existing or planned security controls.
   * Output - Likelihood rating of low (.1), medium (.5), or high (1). Refer to the NIST SP 800-30 definitions of low, medium, and high.
 
-* Step 6. Impact Analysis
+* Step 5. Impact Analysis
   * Determine the level of adverse impact that would result from a threat successfully exploiting a vulnerability. Factors of the data and systems to consider should include the importance to CareJourney's mission; sensitivity and criticality (value or importance); costs associated; loss of confidentiality, integrity, and availability of systems and data.
   * Output - Magnitude of impact rating of low (10), medium (50), or high (100). Refer to the NIST SP 800-30 definitions of low, medium, and high.
+
+* Step 6. Control Analysis
+  * Document and assess the effectiveness of technical and non-technical controls that have been or will be implemented by CareJourney to minimize or eliminate the likelihood / probability of a threat-source exploiting a Platform vulnerability.
+  * Output - List of current or planned controls (policies, procedures, training, technical mechanisms, insurance, etc.) used for the Platform to mitigate the likelihood of a vulnerability being exercised and reduce the impact of such an adverse event.
 
 * Step 7. Risk Determination
   * Establish a risk level. By multiplying the ratings from the likelihood determination and impact analysis, a risk level is determined. This represents the degree or level of risk to which an IT system, facility, or procedure might be exposed if a given vulnerability were exercised. The risk rating also presents actions that senior management must take for each risk level.
@@ -81,7 +83,7 @@ The intent of completing a risk assessment is to determine potential threats and
   * Output - Recommendation of control(s) and alternative solutions to mitigate risk.
 
 * Step 9. Results Documentation
-  * Results of the risk assessment are documented in an official report, spreadsheet, or briefing and provided to senior management to make decisions on policy, procedure, budget, and Platform operational and management changes.
+  * Results of the risk assessment are documented in the Issue Management System and summarized in Meeting Minutes.
   * Output - A risk assessment report that describes the threats and vulnerabilities, measures the risk, and provides recommendations for control implementation.
 
 ### 4.3.2 Risk Mitigation
@@ -96,19 +98,15 @@ Risk mitigation involves prioritizing, evaluating, and implementing the appropri
   * Although possible controls for each threat and vulnerability pair are arrived at in Step 8 of the Risk Assessment, review the recommended control(s) and alternative solutions for reasonableness and appropriateness. The feasibility (e.g., compatibility, user acceptance, etc.) and effectiveness (e.g., degree of protection and level of risk mitigation) of the recommended controls must be analyzed. In the end, select a "most appropriate" control option for each threat and vulnerability pair.
   * Output - list of feasible controls
 
-* Step 3. Conduct Cost-Benefit Analysis
-  * Determine the extent to which a control is cost-effective. Compare the benefit (e.g., risk reduction) of applying a control with its subsequent cost of application. Controls that are not cost-effective are also identified during this step. Analyzing each control or set of controls in this manner, and prioritizing across all controls being considered, can greatly aid in the decision-making process.
-  * Output - Documented cost-benefit analysis of either implementing or not implementing each specific control
-
-* Step 4. Select Control(s)
+* Step 3. Select Control(s)
   * Taking into account the information and results from previous steps, CareJourney's mission, and other important criteria, the Risk Management Team determines the best control(s) for reducing risks to the information systems and to the confidentiality, integrity, and availability of ePHI. These controls may consist of a mix of administrative, physical, and/or technical safeguards.
   * Output - Selected control(s)
 
-* Step 5. Assign Responsibility
+* Step 4. Assign Responsibility
   * Identify the workforce members with the skills necessary to implement each of the specific controls outlined in the previous step, and assign their responsibilities. Also identify the equipment, training, and other resources needed for the successful implementation of controls. Resources may include time, money, equipment, etc.
   * Output - List of resources, responsible persons and their assignments
 
-* Step 6. Develop Safeguard Implementation Plan
+* Step 5. Develop Implementation Plan
   * Develop an overall implementation or action plan and individual project plans needed to implement the safeguards and controls identified. The Implementation Plan must contain the following information:
     * Each risk or vulnerability/threat pair and risk level;
     * Prioritized actions;
@@ -139,4 +137,4 @@ The two principle components of the risk management process - risk assessment an
 
 ## 4.4 Process Documentation
 
-Maintain documentation of all risk assessment, risk management, and risk mitigation efforts for a minimum of six years.
+All risk assessments shall be documented within Confluence and Jira.
